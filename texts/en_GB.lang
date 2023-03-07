@@ -1,0 +1,291 @@
+//manifest
+pack.description=§b(ᗜ ᗜ) v1.5.0 
+api.A=Original image package
+api.B=PVP image package
+api.C=Default image package
+manifest.tip=§7 Please restart the game after switching the image package
+menu.beta=      
+res.ver=v1.5.0
+
+//start_help
+help_1.1=1.Enter the setting interface
+help_1.2=2.Click this package in the active middle of Settings - Global Resources
+help_1.3=3.Click the gear icon next to the closed
+help_1.4=4.A sub-package selection interface will appear.Slide the slider to select the graphics package as required.
+
+help_2.1=Before using this function, you must meet the following conditions.
+help_2.2=(I).Your device operating system must be Android.
+help_2.3=(II).Both archives need to be enabled for cheating.
+help_2.4=(III).The method is applicable to version 1.19 of Minecraft.Below v1.19, please refer to the method in the appendix of this package.
+help_2.5=(IV).You need to know the acquisition method and basic operation of structural blocks.The command to get the structure block is/live @ a structure_block
+help_2.6=
+help_2.7=If you are ready, you can start.
+help_2.8=1.After obtaining the structural block, place it next to the building to be copied in A's archive.
+help_2.9=2.Select the building to be copied (note: the maximum value of x and y is 50).
+help_2.10=3.Name the building.Then click Export and save the mcstructure file.
+help_2.11=4.Enter the B archive editing world interface and activate the add-on..
+help_2.12=5.Enter the B archive and place the structural block at the target location.
+help_2.13=6.Select the loading mode in the structure block.
+help_2.14=7.Click Import to import the.mcstructure file just saved
+help_2.15=8.Click Load and your building will be pasted successfully.
+
+help_3.1=1.Activate the extension package in My Package in Settings - Global Resources
+help_3.2=2.Sort in active options.(The expansion package needs to be higher than the UI)
+help_3.3=3.Exit the setting interface and click the style tab.
+help_3.4=4.Select the expanded topic in the topic selection.
+
+//about
+about_text=Arok is a project initiated by Nai, with the core design concept of optimizing user experience, and is committed to making beautiful and practical UI.
+about_text2=Based on the spirit of Internet sharing, Arok has opened its source code.Welcome developers to contribute.You can participate in code contributions or submit bugs on Github.This will not only help the better development of ArokUI, but also enable more people to enjoy the excellent experience it brings.In addition, users are also welcome to put forward suggestions and suggestions on ArokUI, which will help us improve and optimize.
+about_title=User Use Agreement
+about_title_1=Arok UI (hereinafter referred to as this package) is a resource package based on multiple open source protocols.Users should abide by the following terms when using it:
+about_title_2=Use agreement is as follows:
+about_title_3=1.The code part of this package follows the GPLv3.0 protocol.Users can freely use, modify and redistribute this part of code, but they need to comply with the provisions of the GPLv3.0 protocol, including publicly publishing source code and indicating the original copyright information.
+about_title_4=2.The resource file part of this package (such as audio, some icons, etc.) follows the CCBY-NC-SA4.0 protocol.Users can freely use, modify and redistribute this part of the resource file, but they need to comply with the provisions of the CCBY-NC-SA4.0 protocol.
+about_title_5=3.This package uses other people's open source code based on the GPL protocol.Attention should be paid to preserving other people's copyright information.
+about_title_6=4.This package is a free resource package that users can use for free.
+about_title_7=5.Users are not allowed to use this package for commercial purposes.
+about_title_8=6.Users shall not falsely claim to be the original author of this package or conceal the copyright information of this package.
+about_title_9=7.On the premise of complying with the GPLv3.0 agreement, this package and its author will not be liable for any direct or indirect losses arising from the use of this package.
+about_title_10=8.The final interpretation right of the terms of this agreement belongs to the Arok development team * The original GPLv3.0 license agreement can be found at the following location: http://www.gnu.org/licenses/gpl-3.0.html *
+about_title_11=9.The user shall be deemed to agree to this agreement when using this package.
+about_title_12=[Arok UI] development group
+
+
+//start
+white.off=§f Close
+
+start_A=background
+start_B=image
+start_C=mode
+start_D=design
+
+start.night=Mode theme
+start.design=Switch style
+start.img=Picture settings
+start.background=Background management
+start.preview=Background preview
+start.navigation.design=Navigation bar control
+
+light.theme=Normal mode
+night.theme=Night mode
+
+screen_saver.stop=Stop
+screen_saver.2min=2 minutes
+screen_saver.5min=5 minutes
+
+Image.no=Close
+Image.1=Picture 1
+Image.2=Picture 2
+
+pattern.1=Style 1
+pattern.2=Style 2
+pattern.3=Style 3
+pattern.4=Auto play
+
+ARline.expand.1=Expand
+
+default.1=Default
+
+preview.1=Preview
+
+sort.1=Hide setting control
+sort.2=Hide about control
+sort.3=Show invite control
+sort.4=Show skin control
+sort.5=Show achievement control
+sort.6=Show game control
+sort.7=Show store control
+sort.8=Show exit control
+
+tip.1=Models adapted to different environments
+tip.2=Manage the time when screen saver appears
+tip.3=Replace the picture in the lower right corner
+tip.4=Change the background of the main interface
+tip.5=Switch the UI style of the main interface
+tip.6=Switch main interface theme (need to load theme extension package)
+tip.7=Preview the replacement background
+tip.8=Control for managing navigation bar
+
+start=Start
+pattern=Style
+function=Function
+
+white.setting=§f Setting
+white.about=§f About
+white.invite=§f Invite
+white.skin=§f Skin
+white.achievement=§f Achievements
+white.store=§f Store
+white.game=§f Game
+white.exit=§f Exit
+
+black.setting=§0 Setting
+black.about=§0 About
+black.invite=§0 Invite
+black.skin=§0 Skin
+black.achievement=§0 Achievements
+black.store=§0 Store
+black.game=§0 Game
+black.exit=§0 Exit
+
+nologin.1=Not login
+setting.1=Setting
+game.1=Game
+skin.1=Skin
+achievement.1=Achievement
+invite.1=Invite
+exit.1=Exit
+store.1=Store
+
+Information=Information
+help=Help
+producer=Producer
+support=Support us
+music=Music
+expand.1=Extension management
+
+music.tip=The official music package needs to be installed
+compilations=collections
+broadcast.1=Play
+single_Song=single
+
+version_tip=Resource version: 
+game_version_tip=Game version: 
+project_tip=Project address: 
+when_tip=Development date: 
+author=Producer: 
+contributor=Contributor: 
+customize.pack=Custom package
+special_Thanks=Special thanks: 
+
+help_1=Help 1
+help_2=Help 2
+help_3=Help 3
+
+help.title.1=Toggle Graphics Package Tutorial
+help.title.2=Copy building tutorial across archives
+help.title.3=Expand the package to load the tutorial
+
+expand_pack_tip=Display the currently loaded expansion packs
+
+WeChat_label=Donate using WeChat
+WeChat_tip=Help the author create better! The amount of donation is unlimited (up to 50 yuan).Minors should be accompanied by their guardians to donate.
+
+//hud
+hidehud.text=Click here to restore the hud
+Low.durability=Low durability
+create.1=Create
+survival.1=survival
+
+//hud_menu
+stop_tip.1=Disable auxiliary function
+stop_tip.2=After using this function, the game will stop using the auxiliary function and can only be recovered by re-entering the game.After disabling the function, the function that is turned on or off through the auxiliary menu will not be restored until the next game.
+stop_tip.3=If you only close the panel, click the close control at the top right corner of the panel.
+hud_auxiliary=auxiliary point
+show.1=Show compass
+show.2=Display clock
+show.3=Display trace pointer
+show.4=Paper doll plane
+show.5=handheld item display
+show.6=forced display of item column
+show.7=Night mode
+show.8=eye protection mode
+show.title=Function display
+hud_hide.1=Hide control
+hud_hide.2=hide HP
+hud_hide.3=hide the mount's HP
+hud_hide.4=hide hunger
+hud_hide.5=hide armor value
+hud_hide.6=hide low durability reminder
+hud_hide.7=Hide Boss information
+hud_hide.8=hide the scoreboard
+hud_hide.9=hidden state effect
+hud_hide.10=hide experience bar
+hud_hide.11=Hide item column
+hud_hide.12=hide chat
+hud_hide.13=hide coordinates
+hud_hide.14=hide paper doll
+hud_hide.15=hide item name
+hud_hide.16=turn off hidden hud prompt
+hud_hide.17=hidden mode prompt
+location.1=Center
+location.2=upper left corner
+location.3=upper right corner
+location.4=lower left corner
+location.5=lower right corner
+customized.hud=Arok Customized Hud
+original.hud=Original Hud
+watermark.label=Watermark position
+watermark.label.tip=Change watermark path Arok/textures/other/watermark.png
+qh.hud.label=Toggle Hud mode
+qh.hud.label.tip=In the original Hud mode, the auxiliary menu function is not available.
+
+//inventory
+synthesis.1=one bond synthesis
+open.1=Show all the contents
+open.2=Show inventory
+open.3=Show bag
+
+//pause
+come.1=Click the blank area to return to the game
+Playerlist.1=Players joined
+quit.save.game=Whether to exit and save the game
+yes.exit=Confirm exit
+cancel.1=Cancel
+catch.screen=Screen capture
+side.bar=Sidebar
+feedback.1=Feedback
+invite.title=invite friends to join
+
+//setting
+setting.more=More
+beta.1=text at the top of beta
+debug.2=Click to switch
+control.1=Control
+routine.1=General
+other.1=Other
+debug.1=Debug
+
+//popup
+pop.tip.text=Note:
+
+//play
+world.management=World management
+
+//trade
+quick.6=all transactions
+lock.1=unlock all transaction
+
+//setting other
+options.enableEducation=Enable educational game?
+options.uiprofile.class=PC version	
+options.uiprofile.socket=PE version
+top.1=Please restart the game when UI is enabled for the first time
+createWorldScreen.gameMode.spectator=Spectator
+
+//more_setting
+quick.setting=Quick setting
+commonly.used=Quick function
+
+more.function=More functions
+common.function=Common functions
+
+on.1=ON
+off.1=off
+
+more.setting.tip=The lower version of the game will make some functions unavailable.
+
+//chat
+last.1=last sentence
+next.1=next sentence
+
+//OreUI
+hbui.Notifications.experimentsWarning.informationMessage=Experiments are potential new features. Be careful as things might break.
+hbui.CreateNewWorldSideMenu.generalTabLabel=General
+hbui.CreateNewWorldSideMenu.generalTabLabel.title=General settings
+hbui.CreateNewWorldSideMenu.advancedTabLabel=Advanced
+hbui.CreateNewWorld.advanced.title=Advanced settings
+hbui.CreateNewWorldSideMenu.cheatsTabLabel=Cheats
+hbui.CreateNewWorld.cheats.settingsTitle=Cheat settings
+hbui.CreateNewWorldSideMenu.experimentalFeaturesTabLabel=Experiments
