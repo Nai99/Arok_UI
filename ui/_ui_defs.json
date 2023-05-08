@@ -11,7 +11,10 @@
         "Arok/ui/pause/pause_exit.json",//暂停界面二次确认退出
         "Arok/ui/pause/pause_side.json",//暂停界面侧边栏界面
         
+        "Arok/ui/chat/chat_music.json",//聊天界面-播放音乐
+        
         "Arok/ui/progress/number_panel.json",//百分比进度
+        "Arok/ui/progress/progress_anim.json",//加载页动画
         
         "Arok/ui/hud/hide_gui.json",//隐藏hud控件
         "Arok/ui/hud/hud_tip.json",//低耐久提醒
@@ -44,12 +47,16 @@
         "Arok/ui/start/layout_panel_sort.json",//开始界面-样式页-导航栏功能
         "Arok/ui/start/about_panel.json",//开始界面-关于页
         "Arok/ui/start/ARline_screen.json",//开始界面-ARline界面
+        "Arok/ui/start/Loli_screen.json",//开始界面-Loli界面
         "Arok/ui/start/expand_pack.json",//开始界面-功能页-扩展管理
         
         "Arok/ui/setting/more_setting.json",//设置界面-更多设置
         "Arok/ui/setting/set_anim.json",//设置界面动画
         
+        "Arok/ui/popup/popup_anim.json",//弹窗动画
+        
         "Arok/ui/other/tab_content.json",//tab标签
+        "Arok/ui/other/medicine_tip_content.json",//炼药配方
         "Arok/ui/other/type.json"//type类型(偷懒用)
     ]
 }

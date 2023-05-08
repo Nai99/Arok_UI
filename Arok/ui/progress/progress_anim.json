@@ -1,0 +1,1 @@
+{"namespace":"progress_anim","bar_color_1":{"anim_type":"color","easing":"out_cubic","duration":2,"from":[0.17,0.32,0.98],"to":[0.17,0.52,0.98],"next":"@progress_anim.bar_color_2"},"bar_color_2":{"anim_type":"color","easing":"out_cubic","duration":2,"from":[0.17,0.52,0.98],"to":[0.17,0.32,0.98],"next":"@progress_anim.bar_color_1"}}

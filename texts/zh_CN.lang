@@ -1,9 +1,9 @@
 //manifest
-pack.description=§b(ᗜ ᗜ) v1.5.0 
+pack.description=§bCN  v1.5.8
 api.A=原版图像包
 api.B=PVP图像包
 api.C=默认图像包
-manifest.tip=§7切换图像包后请重启游戏
+manifest.tip=§7滑动选择图像包
 menu.beta=      
 
 //start_help
@@ -47,7 +47,7 @@ about_title_7=5、用户不得使用本包于商业用途。
 about_title_8=6、用户不得谎称自己是本包的原始作者或者隐去本包的版权信息。
 about_title_9=7、在遵守GPLv3.0协议的前提下，本包及其作者不承担由使用本包引起的任何直接或间接损失责任。
 about_title_10=8、本协议条款的最终解释权归Arok开发组所有 *GPLv3.0原始许可协议可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html*
-about_title_11=9、用户在使用本包时开始视作同意本协议。
+about_title_11=9、用户在使用本包时将视作同意本协议。
 about_title_12=[Arok UI]开发组
 
 
@@ -76,6 +76,7 @@ screen_saver.5min=5分钟
 image.no=关闭
 image.1=图片一
 image.2=图片二
+rwmx=人物模型
 
 pattern.1=样式一
 pattern.2=样式二
@@ -99,8 +100,8 @@ sort.8=显示退出控件
 
 tip.1=适应不同环境的模式
 tip.2=管理屏幕保护出现的时间
-tip.3=更换右下角的图片
-tip.4=更换主界面的背景
+tip.3=更换右下角的图片(装载自定义包后显示)
+tip.4=更换主界面的背景(可通过自定义包更改背景)
 tip.5=切换主界面的UI样式
 tip.6=切换主界面主题(需装载主题扩展包)
 tip.7=预览更换的背景
@@ -171,6 +172,9 @@ expand_pack_tip=显示目前已装载的扩展包
 WeChat_label=使用微信进行捐赠
 WeChat_tip=助力作者更好的创作！捐赠金额不限(最高人民币50元)，未成年人请在监护人陪同下进行捐赠。
 
+screen.bh=屏幕保护中~
+sc.back=点击任意处返回
+
 //hud
 hidehud.text=点击此处恢复Hud
 Low.durability=低耐久度
@@ -178,6 +182,7 @@ create.1=创造
 survive.1=生存
 
 //hud_menu
+change.crosshair=准心选择
 stop_tip.1=停用辅助功能
 stop_tip.2=使用本功能后本次游戏将停止使用辅助功能，只能通过重进游戏恢复。停用功能后，通过辅助菜单开启或关闭的功能直到开始下次游戏前都不会恢复。
 stop_tip.3=如果仅关闭面板，点击面板右上角的关闭控件即可。
@@ -201,7 +206,7 @@ hud_hide.7=隐藏Boss信息
 hud_hide.8=隐藏计分板
 hud_hide.9=隐藏状态效果
 hud_hide.10=隐藏经验条
-hud_hide.11=隐藏物品栏
+hud_hide.11=隐藏快捷栏
 hud_hide.12=隐藏聊天
 hud_hide.13=隐藏坐标
 hud_hide.14=隐藏纸娃娃
@@ -213,6 +218,7 @@ location.2=左上角
 location.3=右上角
 location.4=左下角
 location.5=右下角
+location.6=自由拖动
 customized.hud=Arok定制Hud
 original.hud=原版Hud
 watermark.label=水印位置
@@ -221,10 +227,11 @@ qh.hud.label=切换Hud模式
 qh.hud.label.tip=在原版Hud模式下，辅助菜单功能不可用。
 
 //inventory
+item_bar.1=物品栏
 synthesis.1=一键合成
-open.1=展开全部内容
-open.2=仅展开物品栏
-open.3=仅展开背包
+open.1=全部
+open.2=物品栏
+open.3=背包
 
 //pause
 come.1=点击空白区域返回游戏
@@ -237,7 +244,13 @@ side.bar=侧边栏
 feedback.1=反馈
 invite.title=邀请好友加入
 
+//screenshot
+issue.1=发布到社区
+
 //setting
+set.text.1=系统
+set.text.2=常规
+set.text.3=高级
 setting.more=更多
 beta.1=测试版顶部文字
 debug.2=点击切换
@@ -289,7 +302,7 @@ hbui.CreateNewWorldSideMenu.cheatsTabLabel=无敌模式
 hbui.CreateNewWorld.cheats.settingsTitle=作弊设置	
 hbui.CreateNewWorldSideMenu.experimentalFeaturesTabLabel=实验性游戏内容	
 
-//1.19翻译
+//1.19
 options.creativeDelayedBlockBreaking=延迟打破方块(仅创造模式)
 options.destroyvibration=破坏方块时振动	
 options.splitvibration=拆分物品时振动	
@@ -302,7 +315,7 @@ options.copyCoordinateUI=启用复制坐标
 options.account=用户
 options.accountTitle=用户设置
 
-//村民
+//villager
 trade.level.1=陌生	
 trade.level.2=友好	
 trade.level.3=信任	
@@ -312,3 +325,17 @@ trade.mysteriousText=查看
 trade.notEnough= %s	不足
 trade.question=？	
 trade.trade=交易
+
+back.1=点击任意处返回游戏
+
+activate.yes=已激活
+activate.no=未激活
+
+//formula
+formula.title=炼药配方
+formula.tip.1=基础药水
+formula.tip.2=药水增幅
+formula.tip.3=药水制作
+formula.tip.4=药水转换
+medicine.tip.1=更强效果的药水
+medicine.tip.2=长时间的药水

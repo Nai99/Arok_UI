@@ -1,12 +1,12 @@
 初弦用户界面 使用协议
-Arok UI User usage protocol
+Arok UI user protocol
 
 
-资源作者/Resource author：Nai 
+资源作者/Resource author：Nai-bit 
 
-资源版本/Resource version：V1.5.0
+资源版本/Resource version：V1.5.8
 
-协议版本/Protocol version：V1.0.1
+协议版本/Protocol version：V1.0.2
 
 联系方式/Contact information:
 
@@ -28,7 +28,7 @@ This will not only contribute to the better development of ArokUI, but also enab
 In addition, users are also welcome to make suggestions and comments on ArokUI, which will help us to improve and optimize.
 
 
-Arok UI(以下代指本包)是一款基于多种开源协议的资源包。用户在使用时需遵守以下条款:
+Arok UI(以下代指本包)是一款基于多种开源协议的资源包。用户在使用时需遵守以下协议:
 Arok UI (hereinafter referred to as this package) is a resource package based on various open source protocols. Users should abide by the following terms when using:
 
 

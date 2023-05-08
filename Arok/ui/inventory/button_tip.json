@@ -1,1 +1,1 @@
-{"namespace":"button_tip","text_tip@type.label":{"text":"synthesis.1","size":["70%",12],"layer":20,"color":"white","font_scale_factor":0.85,"font_type":"OldSmoothFont"},"text_tip2@text_tip":{"text":"open.1"},"text_tip3@text_tip":{"text":"open.2"},"text_tip4@text_tip":{"text":"open.3"}}
+{"namespace":"button_tip","text_tip@type.label":{"text":"synthesis.1","size":[35,24],"layer":20,"color":"black","font_scale_factor":0.85,"font_type":"OldSmoothFont"},"text_tip2@text_tip":{"text":"open.1"},"text_tip3@text_tip":{"text":"open.2"},"text_tip4@text_tip":{"text":"open.3"}}

@@ -1,9 +1,9 @@
 //manifest
-pack.description=§b(ᗜ ᗜ) v1.5.0 
+pack.description=§bTW   v1.5.8 
 api.A=原版圖像包
 api.B=PVP圖像包
 api.C=默認圖像包
-manifest.tip=§7切換圖像包後請重啟遊戲
+manifest.tip=§7滑動選擇圖像包
 menu.beta=      
 
 //start_help
@@ -47,7 +47,7 @@ about_title_7=5、用戶不得使用本包於商業用途。
 about_title_8=6、用戶不得謊稱自己是本包的原始作者或者隱去本包的版權資訊。
 about_title_9=7、在遵守GPLv3.0協議的前提下，本包及其作者不承擔由使用本包引起的任何直接或間接損失責任。
 about_title_10=8、本協議條款的最終解釋權歸Arok開發組所有 *GPLv3.0原始許可協議可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html*
-about_title_11=9、用戶在使用本包時開始視作同意本協議。
+about_title_11=9、用戶在使用本包時將視作同意本協議。
 about_title_12=[Arok UI]開發組
 
 
@@ -76,6 +76,7 @@ screen_saver.5min=5分鐘
 image.no=關閉
 image.1=圖片一
 image.2=圖片二
+rwmx=人物模型
 
 pattern.1=樣式一
 pattern.2=樣式二
@@ -99,8 +100,8 @@ sort.8=顯示退出控件
 
 tip.1=適應不同環境的模式
 tip.2=管理螢幕保護出現的時間
-tip.3=更換右下角的圖片
-tip.4=更換主介面的背景
+tip.3=更換右下角的圖片(裝載自定義包後顯示)
+tip.4=更換主介面的背景(可通過自定義包修改背景)
 tip.5=切換主介面的UI樣式
 tip.6=切換主介面主題(需裝載主題擴展包)
 tip.7=預覽更換的背景
@@ -171,6 +172,9 @@ expand_pack_tip=顯示目前已裝載的擴展包
 WeChat_label=使用微信進行捐贈
 WeChat_tip=助力作者更好的創作！捐贈金額不限(最高人民幣50元)，未成年人請在監護人陪同下進行捐贈。
 
+screen.bh=屏幕保護中...
+sc.back=點擊任意處返回
+
 //hud
 hidehud.text=點擊此處恢復Hud
 Low.durability=低耐久度
@@ -178,6 +182,7 @@ create.1=創造
 survive.1=生存
 
 //hud_menu
+change.crosshair=準心選擇
 stop_tip.1=停用輔助功能
 stop_tip.2=使用本功能後本次遊戲將停止使用輔助功能，只能通過重進遊戲恢復。停用功能後，通過輔助菜單開啟或關閉的功能直到開始下次遊戲前都不會恢復。
 stop_tip.3=如果僅關閉面板，點擊面板右上角的關閉控件即可。
@@ -200,8 +205,8 @@ hud_hide.6=隱藏低耐久提醒
 hud_hide.7=隱藏Boss資訊
 hud_hide.8=隱藏計分板
 hud_hide.9=隱藏狀態效果
-hud_hide.10=隱藏經驗條
-hud_hide.11=隱藏物品欄
+hud_hide.10=隐藏經驗條
+hud_hide.11=隐藏快捷欄
 hud_hide.12=隱藏聊天
 hud_hide.13=隱藏座標
 hud_hide.14=隱藏紙娃娃
@@ -221,10 +226,11 @@ qh.hud.label=切換Hud模式
 qh.hud.label.tip=在原版Hud模式下，輔助菜單功能不可用。
 
 //inventory
+item_bar.1=物品欄
 synthesis.1=一鍵合成
-open1=展開全部內容
-open.2=僅展開物品欄
-open.3=僅展開背包
+open1=全部
+open.2=物品欄
+open.3=背包
 
 //pause
 come.1=點擊空白區域返回遊戲
@@ -237,7 +243,13 @@ side.bar=側邊欄
 feedback.1=回饋
 invite.title=邀請好友加入
 
+//screenshot
+issue.1=發佈到社區
+
 //setting
+set.text.1=系統
+set.text.2=常規
+set.text.3=高級
 setting.more=更多
 beta.1=測試版頂部文字
 debug.2=點擊切換
@@ -312,3 +324,17 @@ trade.mysteriousText=查看
 trade.notEnough= %s	不足
 trade.question=？	
 trade.trade=交易
+
+back.1=點擊任意處返回遊戲
+
+activate.yes=已激活
+activate.no=未激活
+
+//formula
+formula.title=煉藥配方
+formula.tip.1=基礎藥水
+formula.tip.2=藥水增幅
+formula.tip.3=藥水製作
+formula.tip.4=藥水轉換
+medicine.tip.1=更強效果的藥水
+medicine.tip.2=長時間的藥水

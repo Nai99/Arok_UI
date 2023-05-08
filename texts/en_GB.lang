@@ -1,11 +1,11 @@
 //manifest
-pack.description=§b(ᗜ ᗜ) v1.5.0 
+pack.description=§bGB  v1.5.8
 api.A=Original image package
 api.B=PVP image package
 api.C=Default image package
-manifest.tip=§7 Please restart the game after switching the image package
+manifest.tip=§7 Sliding selective image package
 menu.beta=      
-res.ver=v1.5.0
+res.ver=v1.5.8
 
 //start_help
 help_1.1=1.Enter the setting interface
@@ -77,6 +77,7 @@ screen_saver.5min=5 minutes
 Image.no=Close
 Image.1=Picture 1
 Image.2=Picture 2
+rwmx=Model
 
 pattern.1=Style 1
 pattern.2=Style 2
@@ -100,8 +101,8 @@ sort.8=Show exit control
 
 tip.1=Models adapted to different environments
 tip.2=Manage the time when screen saver appears
-tip.3=Replace the picture in the lower right corner
-tip.4=Change the background of the main interface
+tip.3=Replace the picture in the lower right corner(Display after loading the custom pack)
+tip.4=Change the background of the main interface(Modify the background by custom pack)
 tip.5=Switch the UI style of the main interface
 tip.6=Switch main interface theme (need to load theme extension package)
 tip.7=Preview the replacement background
@@ -172,6 +173,9 @@ expand_pack_tip=Display the currently loaded expansion packs
 WeChat_label=Donate using WeChat
 WeChat_tip=Help the author create better! The amount of donation is unlimited (up to 50 yuan).Minors should be accompanied by their guardians to donate.
 
+screen.bh=Screen saver
+sc.back=Click anywhere to return
+
 //hud
 hidehud.text=Click here to restore the hud
 Low.durability=Low durability
@@ -179,6 +183,7 @@ create.1=Create
 survival.1=survival
 
 //hud_menu
+change.crosshair=select the crosshair
 stop_tip.1=Disable auxiliary function
 stop_tip.2=After using this function, the game will stop using the auxiliary function and can only be recovered by re-entering the game.After disabling the function, the function that is turned on or off through the auxiliary menu will not be restored until the next game.
 stop_tip.3=If you only close the panel, click the close control at the top right corner of the panel.
@@ -202,18 +207,19 @@ hud_hide.7=Hide Boss information
 hud_hide.8=hide the scoreboard
 hud_hide.9=hidden state effect
 hud_hide.10=hide experience bar
-hud_hide.11=Hide item column
+hud_hide.11=Hide quick bar
 hud_hide.12=hide chat
 hud_hide.13=hide coordinates
 hud_hide.14=hide paper doll
 hud_hide.15=hide item name
 hud_hide.16=turn off hidden hud prompt
 hud_hide.17=hidden mode prompt
-location.1=Center
-location.2=upper left corner
-location.3=upper right corner
-location.4=lower left corner
-location.5=lower right corner
+location.1=center
+location.2=up_left
+location.3=up_right
+location.4=down_left
+location.5=down_right
+location.6=free drag
 customized.hud=Arok Customized Hud
 original.hud=Original Hud
 watermark.label=Watermark position
@@ -222,10 +228,11 @@ qh.hud.label=Toggle Hud mode
 qh.hud.label.tip=In the original Hud mode, the auxiliary menu function is not available.
 
 //inventory
+item_bar.1=Inventory
 synthesis.1=one bond synthesis
-open.1=Show all the contents
-open.2=Show inventory
-open.3=Show bag
+open.1=All
+open.2=Inventory
+open.3=Bag
 
 //pause
 come.1=Click the blank area to return to the game
@@ -238,7 +245,13 @@ side.bar=Sidebar
 feedback.1=Feedback
 invite.title=invite friends to join
 
+//screenshot
+issue.1=Publish to the community
+
 //setting
+set.text.1=system
+set.text.2=routine
+set.text.3=senior
 setting.more=More
 beta.1=text at the top of beta
 debug.2=Click to switch
@@ -289,3 +302,17 @@ hbui.CreateNewWorld.advanced.title=Advanced settings
 hbui.CreateNewWorldSideMenu.cheatsTabLabel=Cheats
 hbui.CreateNewWorld.cheats.settingsTitle=Cheat settings
 hbui.CreateNewWorldSideMenu.experimentalFeaturesTabLabel=Experiments
+
+back.1=Click anywhere to return to the game
+
+activate.yes=activate
+activate.no=non activate
+
+//formula
+formula.title=Medicine formula
+formula.tip.1=Basis potion
+formula.tip.2=Potion strengthen
+formula.tip.3=Make potion
+formula.tip.4=Potion change
+medicine.tip.1=Powerful potion
+medicine.tip.2=Long time potion
