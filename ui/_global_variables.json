@@ -1,75 +1,83 @@
 {
-//注意:
-//1.这是Arok UI的全局变量文件
-//2.修改下列的数值，达到修改部分界面样式效果。
-//3.修改时需遵守json文件语法，语法错误将导致部分界面异常。
-
-//部分值介绍
-//color是颜色值，以RGB值的比例1:255显示。
-//Alpha为透明度，一个从0到1的浮点值，精度为小数后两位；越接近0则越透明。
-
-//部分值参考
 /*
-"color":[0,0,0]  黑色
-"color":[1,1,1]  白色
+注意:
+1.这是Arok UI的全局变量文件
+2.修改下列的数值，可以达到修改部分界面样式效果。
+3.修改时需遵守json文件语法，语法错误将导致部分界面异常。
 
-"alpha":0 完全透明
-"alpha":1 不透明
+部分值介绍
+color是颜色相对强度值，使用RGB值，按比例1:255显示，精度可保留至小数后三位。
+alpha为透明度值，一个从0到1的浮点值，精度可保留至小数后三位；越接近0则越透明。
+
+
+
+
+
+
+部分值参考  /  
+"color":[0,0,0]  黑色  |
+"color":[1,1,1]  白色  |
+
+"alpha":0 完全透明  |
+"alpha":1 不透明  |
+
+
+注:下列值若无特殊说明，数值范围均为0到1之间，可保留至小数点后三位。
 */
 
+//可修改的值(注意不要删除逗号)
 
-//注:下列值若无特殊说明，数值范围均为0到1之间，可保留至小数点后两位。
+"$screen_saver_background_color": [ 0 , 0 , 0 ]    ,   //开始界面 - 屏幕保护颜色(默认黑色)  |   
+
+"$start_panel_light_color":  [ 1.00 , 0.25 , 0.40 ]      ,  //开始界面 - 磁贴颜色(普通)  |
+
+"$start_panel_night_color": [ 0 , 0 , 0 ]        ,  //开始界面 - 磁贴颜色(夜间)   |
+
+"$start_panel_alpha": 0.95      ,   //开始界面 - 磁贴透明度(0为透明)    |
+
+"$start_panel_text_color": [ 1 , 1 , 1 ]        ,   //开始界面 - 磁贴文字颜色     |
+
+"$start_button_color": [ 1 , 1 , 1 ]        ,   //开始界面 - 磁贴图标颜色   |
+
+"$sidebar_image_alpha":  0.30      ,   //开始界面 - 侧边栏图片透明度    |
+
+"$start_text_color_light": [ 0 , 0 , 0 ]       ,  //开始界面 - 字体颜色(普通)    |
+
+"$start_text_color_night": [ 1 , 1 , 1 ]       ,  //开始界面 - 字体颜色(夜间)   |
+
+"$left_layout_color_light": [ 0.44 , 0.59 , 1.00 ]          ,//开始界面 - 样式 - 左侧选项卡颜色(普通) +  默认弹窗顶部颜色  |
+
+"$left_layout_color_night": [ 0 , 0 , 0 ]          ,//开始界面 - 样式 - 左侧选项卡颜色(夜间)  |
+
+"$right_layout_color_light": [ 1 , 1 , 1 ]          ,//开始界面 - 样式 - 右侧选项卡颜色(普通)  +  默认弹窗底部颜色  |
+
+"$right_layout_color_night": [ 0.2 , 0.2 , 0.2 ]          ,//开始界面 - 样式 - 右侧选项卡颜色(夜间)  |
+
+"$layout_background_alpha": 0.95        ,//开始界面 - 样式选项卡背景透明度(0为透明)  |
+
+"$about_top_bar_alpha": 0.6      ,   //关于界面 - 顶部栏透明度(0为透明)  |
+
+"$about_top_bar_light_color": [ 1 , 1 , 1 ]       ,  //关于界面 - 顶部栏颜色  |
+
+"$blurred_alpha": 0.35         ,//夜间模式背景变暗强度(0为关闭)  |
+
+"$Bottom_dark_alpha": 0.4     ,//开始界面背景亮度调整(0为关闭)  |
+
+"$welcome_sound": 0.8     ,//人物触碰语言音量(0为关闭)  |
+
+"$watermark_alpha": 0.25      ,//hud界面 - 面板 - 水印透明度(0为透明)  |
+
+"$crosshair_alpha": 0.95         ,//hud界面 - 面板 - 准心透明度(0为透明)  |
+
+"$hud_xp_num_color": [ 0.54 , 0.70 , 1.00 ]           ,//游戏内等级数字颜色  |
+
+"$hud_xp_bar_color": [ 0.54 , 0.70 , 1.00 ]          ,//游戏内经验条颜色  |
+
+"$top_debug_text": false          ,//测试版游戏是否显示顶部水印(true为是，false为否，默认否)    |
 
 
-
-
-
-//可修改的值(请不要删除逗号)
-
-"$screen_saver_background_color": [ 0 , 0 , 0 ]    ,   //开始界面 - 屏幕保护颜色(默认黑色)
-
-"$start_panel_text_color": [ 1 , 1 , 1 ]        ,   //开始界面 - 磁贴文字颜色
-
-"$start_panel_light_color": [ 0.71 , 0.76 , 0.99 ]        ,  //开始界面 - 磁贴颜色(普通)
-
-"$start_panel_night_color": [ 0 , 0 , 0 ]        ,  //开始界面 - 磁贴颜色(夜间)
-
-"$start_panel_alpha": 0.95      ,   //开始界面 - 磁贴透明度(0为透明)
-
-"$start_top_bar_alpha": 0.88      ,   //开始界面 - 顶部导航栏透明度(0为透明)
-
-"$start_top_bar_light_color": [ 1 , 1 , 1 ]       ,  //开始界面 - 顶部导航栏颜色(普通)
-
-"$start_top_bar_night_color": [ 0 , 0 , 0 ]       ,  //开始界面 - 顶部导航栏颜色(夜间)
-
-"$start_text_color_light": [ 0 , 0 , 0 ]       ,  //开始界面 - 字体颜色(普通)
-
-"$start_text_color_night": [ 1 , 1 , 1 ]       ,  //开始界面 - 字体颜色(夜间)
-
-"$left_layout_color_light": [ 0.84 , 0.78 , 0.97 ]          ,//开始界面 - 样式 - 左侧选项卡颜色(普通) +  默认弹窗顶部颜色
-
-"$left_layout_color_night": [ 0 , 0 , 0 ]          ,//开始界面 - 样式 - 左侧选项卡颜色(夜间)
-
-"$right_layout_color_light": [ 1 , 1 , 1 ]          ,//开始界面 - 样式 - 右侧选项卡颜色(普通)  +  默认弹窗底部颜色
-
-"$right_layout_color_night": [ 0.2 , 0.2 , 0.2 ]          ,//开始界面 - 样式 - 右侧选项卡颜色(夜间)
-
-"$layout_background_alpha": 0.978        ,//开始界面 - 样式选项卡背景透明度(0为透明)
-
-"$blurred_alpha": 0.35         ,//夜间模式背景变暗强度(0为关闭)
-
-"$Bottom_dark_alpha":0.2     ,//开始界面背景亮度调整(0为关闭)
-
-"$welcome_sound":0.8     ,//人物触碰语言音量(0为关闭)
-
-"$watermark_alpha":0.25      ,//hud界面 - 面板 - 水印透明度(0为透明)
-
-"$crosshair_alpha":0.95         ,//hud界面 - 面板 - 准心透明度(0为透明)
-
-"$hud_xp_num_color": [ 1 , 1 , 1 ]           ,//游戏内等级数字颜色
-
-"$hud_xp_bar_color": [ 0.98 , 0.53 , 0.55 ]          //游戏内经验条颜色
-
+//不可修改的值  |
+"$option_description_text_color": [ 0.9 , 0.9 , 0.9 ]
 
 
 

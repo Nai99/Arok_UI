@@ -1,0 +1,1 @@
+{"namespace":"beacon","beacon_screen@common.inventory_screen_common":{"$close_on_player_hurt|default":true,"close_on_player_hurt":"$close_on_player_hurt","variables":[{"requires":"$desktop_screen","$screen_content":"beacon.beacon_panel"},{"requires":"$pocket_screen","$screen_content":"beacon.beacon_panel"}]}}

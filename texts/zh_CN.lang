@@ -1,10 +1,11 @@
 //manifest
-pack.description=§bCN  v1.5.8
+pack.description=§bCN  v2.0.3
 api.A=原版图像包
 api.B=PVP图像包
 api.C=默认图像包
 manifest.tip=§7滑动选择图像包
-menu.beta=      
+menu.beta=        
+
 
 //start_help
 help_1.1=1.进入设置界面
@@ -28,31 +29,32 @@ help_2.13=6.在结构方块中选择加载模式。
 help_2.14=7.点击导入，导入刚刚保存的.mcstructure文件
 help_2.15=8.点击加载，你的建筑将成功粘贴。
 
-help_3.1=1.在设置-全局资源中的我的包中激活扩展包
-help_3.2=2.在活跃选项中进行排序。(扩展包需高于UI)
-help_3.3=3.退出设置界面，并点击样式选项卡。
-help_3.4=4.在主题选择中选择已扩展的主题。
+help_3.1=1.在设置/全局资源中激活DIY包或扩展包。
+help_3.2=2.在活跃选项中进行排序。(扩展包排序需高于UI)
+help_3.3=3.退出设置界面，并点击导航栏的自定义选项。
+help_3.4=4.在模式/主题选择中选择已扩展的主题。
 
 //about
-about_text=Arok是由Nai发起的项目，以优化用户体验为核心设计理念，致力于制作美观且实用的UI。
+about_text=Arok是由Nai-bit发起的项目，以优化用户体验为核心设计理念，致力于制作美观且实用的UI。
 about_text2=基于互联网共享精神，Arok已经开放源代码，欢迎各位开发者加入贡献，你可以在Github上参与代码贡献或者提交Bug。这样不仅有助于ArokUI的更好的发展，也能让更多人享受到它带来的优秀体验。另外,也欢迎用户对ArokUI提出建议和意见,这将有助于我们改进和优化。
 about_title=用户使用协议
-about_title_1=Arok UI(以下代指本包)是一款基于多种开源协议的资源包，用户在使用时需遵守以下条款:
-about_title_2=使用协议如下:
-about_title_3=1、本包的代码部分遵循GPLv3.0协议，用户可以自由地使用、修改和再发布这部分代码，但需要遵守GPLv3.0协议的规定，包括公开发布源代码和注明原版权信息。
-about_title_4=2、本包的资源文件部分（如音频、部分图标等）遵循CCBY-NC-SA4.0协议，用户可以自由地使用、修改和再发布这部分资源文件，但需要遵守CCBY-NC-SA4.0协议的规定。
-about_title_5=3、本包有使用他人的基于GPL协议开源代码，应注意保留他人的版权信息。
-about_title_6=4、本包为免费的资源包，用户可以免费使用。
-about_title_7=5、用户不得使用本包于商业用途。
-about_title_8=6、用户不得谎称自己是本包的原始作者或者隐去本包的版权信息。
-about_title_9=7、在遵守GPLv3.0协议的前提下，本包及其作者不承担由使用本包引起的任何直接或间接损失责任。
-about_title_10=8、本协议条款的最终解释权归Arok开发组所有 *GPLv3.0原始许可协议可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html*
-about_title_11=9、用户在使用本包时将视作同意本协议。
-about_title_12=[Arok UI]开发组
-
+about_title_1=感谢您使用Arok资源包。为了维护共同的合法权益，请您认真阅读并理解使用协议所有内容。 
+about_title_2=以下内容是您与Arok资源包的使用协议:    
+about_title_3=一、版权    
+about_title_4=1.1 Arok资源包的代码部分遵循GPLv3.0协议，GPLv3.0原始许可协议可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html，用户在使用、修改和再发布这类文件时，需要遵守GPLv3.0协议的规定，包括公开发布源代码和注明原版权信息。  
+about_title_5=1.2 Arok资源包的资源文件部分（如音频、图标等）遵循CCBY-NC-SA4.0协议，用户在使用、修改和再发布这类文件时，需要遵守CCBY-NC-SA4.0协议的规定。  
+about_title_6=1.3 Arok资源包存在使用他人基于GPLv3.0协议的开源代码，用户在使用、修改和再发布这类文件时，注意保留他人的版权信息。  
+about_title_7=二、用途   
+about_title_8=2.1 Arok资源包为免费资源包，所有用户都可以免费使用。
+about_title_9=2.2 用户不得使用Arok资源包于商业用途。 
+about_title_10=2.3 用户不得谎称自己是Arok资源包的原始作者或者隐藏相关的版权信息。
+about_title_11=三、责任   
+about_title_12=3.1 Arok资源包及其作者不承担由使用Arok资源包引起的任何直接或间接损失责任。  
+about_title_13=3.2 本协议条款的最终解释权归Arok开发组所有   
+about_title_14=3.3 用户在使用Arok资源包时开始视作同意本协议。
+about_title_15=『Arok UI』
 
 //start
-white.off=§f关闭
 
 start_A=背景
 start_B=图像
@@ -64,7 +66,6 @@ start.design=切换风格
 start.img=图片设置
 start.background=背景管理
 start.preview=背景预览
-start.navigation.design=导航栏控件
 
 light.theme=普通模式
 night.theme=夜间模式
@@ -76,7 +77,6 @@ screen_saver.5min=5分钟
 image.no=关闭
 image.1=图片一
 image.2=图片二
-rwmx=人物模型
 
 pattern.1=样式一
 pattern.2=样式二
@@ -98,36 +98,20 @@ sort.6=显示游戏控件
 sort.7=显示商店控件
 sort.8=显示退出控件
 
-tip.1=适应不同环境的模式
+tip.1=适用于不同环境的模式
 tip.2=管理屏幕保护出现的时间
-tip.3=更换右下角的图片(装载自定义包后显示)
-tip.4=更换主界面的背景(可通过自定义包更改背景)
-tip.5=切换主界面的UI样式
+tip.3=更换侧边栏的图像
+tip.4=更换主界面的背景
+tip.5=切换主界面界面样式
 tip.6=切换主界面主题(需装载主题扩展包)
 tip.7=预览更换的背景
-tip.8=管理导航栏的控件
 
 start=开始
-pattern=样式
+pattern=自定义
 function=功能
 
-white.setting=§f设置
-white.about=§f关于
-white.invite=§f邀请
-white.skin=§f服装
-white.achievement=§f成就
-white.store=§f商店
-white.game=§f游戏
-white.exit=§f退出
-
-black.setting=§0设置
-black.about=§0关于
-black.invite=§0邀请
-black.skin=§0服装
-black.achievement=§0成就
-black.store=§0商店
-black.game=§0游戏
-black.exit=§0退出
+no.image.tip=暂无图片
+pack.tip=<未加入自定义包>
 
 nologin.1=未登录
 setting.1=设置
@@ -137,15 +121,16 @@ achievement.1=成就
 invite.1=邀请
 exit.1=退出
 store.1=商店
+about.1=关于
+photo.1=照片
 
 information=信息
 help=帮助
 Producer=制作人员
 support=支持我们
 music=音乐
-expand.1=扩展管理
 
-music.tip=需安装官方的音乐包
+music.tip=需安装官方音乐包
 compilations=合集
 broadcast.1=播放
 single_song=单曲
@@ -156,7 +141,6 @@ project_tip=项目地址:
 when_tip=开发日期:
 author=制作者:
 contributor=贡献者:
-customize.pack=自定义包
 special_thanks=特别鸣谢:
 
 help_1=帮助一
@@ -167,23 +151,28 @@ help.title.1=切换图形包教程
 help.title.2=跨存档复制建筑教程
 help.title.3=扩展包装载教程
 
-expand_pack_tip=显示目前已装载的扩展包
+content.pack.tip=内容包
+expand.pack.tip=主题扩展包
+DIY.pack.tip=DIY内容包
 
 WeChat_label=使用微信进行捐赠
 WeChat_tip=助力作者更好的创作！捐赠金额不限(最高人民币50元)，未成年人请在监护人陪同下进行捐赠。
 
-screen.bh=屏幕保护中~
+screen.bh=屏幕保护中
 sc.back=点击任意处返回
+the.start.tip=轻触切换界面 长按隐藏界面
 
 //hud
-hidehud.text=点击此处恢复Hud
+hidehud.text=点击此处恢复
 Low.durability=低耐久度
 create.1=创造
 survive.1=生存
 
 //hud_menu
+expand.1=扩展功能
+expand.2=暂未装载扩展
 change.crosshair=准心选择
-stop_tip.1=停用辅助功能
+stop_tip.1=禁用辅助功能
 stop_tip.2=使用本功能后本次游戏将停止使用辅助功能，只能通过重进游戏恢复。停用功能后，通过辅助菜单开启或关闭的功能直到开始下次游戏前都不会恢复。
 stop_tip.3=如果仅关闭面板，点击面板右上角的关闭控件即可。
 hud_auxiliary=辅助点
@@ -192,11 +181,11 @@ show.2=显示时钟
 show.3=显示追溯指针
 show.4=纸娃娃平面
 show.5=手持物品显示
-show.6=强制显示物品栏
+show.6=锁定物品栏
 show.7=夜间模式
 show.8=护眼模式
 show.title=功能显示
-hud_hide.1=隐藏控件
+hud_hide.1=隐藏部件
 hud_hide.2=隐藏血量
 hud_hide.3=隐藏坐骑血量
 hud_hide.4=隐藏饥饿度
@@ -222,13 +211,13 @@ location.6=自由拖动
 customized.hud=Arok定制Hud
 original.hud=原版Hud
 watermark.label=水印位置
-watermark.label.tip=更改水印路径 Arok/textures/other/watermark.png
+watermark.label.tip=修改以下路径的图片可以修改水印样式 Arok/textures/other/watermark.png
 qh.hud.label=切换Hud模式
-qh.hud.label.tip=在原版Hud模式下，辅助菜单功能不可用。
+qh.hud.label.tip=在原版Hud模式下，辅助菜单部分功能不可用。
 
 //inventory
 item_bar.1=物品栏
-synthesis.1=一键合成
+synthesis.1=合成所有
 open.1=全部
 open.2=物品栏
 open.3=背包
@@ -252,7 +241,7 @@ set.text.1=系统
 set.text.2=常规
 set.text.3=高级
 setting.more=更多
-beta.1=测试版顶部文字
+beta.1=测试版顶部水印
 debug.2=点击切换
 control.1=控制
 routine.1=常规

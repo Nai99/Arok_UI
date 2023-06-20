@@ -1,1 +1,12 @@
-{"crafting_screen_pocket@crafting_pocket.inventory_screen_pocket_base":{"$screen_content":"crafting.root_panel","$screen_bg_content":"","$top_half_variant":"crafting.crafting_panel_top_half"},"inventory_screen_pocket@crafting_pocket.inventory_screen_pocket_base":{"$screen_content":"crafting.root_panel","$screen_bg_content":"","$top_half_variant":"crafting.survival_panel_top_half"}}
+{
+    "crafting_screen_pocket@crafting_pocket.inventory_screen_pocket_base": {
+        "$screen_content": "crafting.root_panel",
+        "$screen_bg_content": "",
+        "$top_half_variant": "crafting.crafting_panel_top_half"
+    },
+    "inventory_screen_pocket@crafting_pocket.inventory_screen_pocket_base": {
+        "$screen_content": "crafting.root_panel",
+        "$screen_bg_content": "",
+        "$top_half_variant": "crafting.survival_panel_top_half"
+    }
+}

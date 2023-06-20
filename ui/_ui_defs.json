@@ -12,6 +12,7 @@
         "Arok/ui/pause/pause_side.json",//暂停界面侧边栏界面
         
         "Arok/ui/chat/chat_music.json",//聊天界面-播放音乐
+        "Arok/ui/chat/chat_anim.json",//聊天界面动画
         
         "Arok/ui/progress/number_panel.json",//百分比进度
         "Arok/ui/progress/progress_anim.json",//加载页动画
@@ -26,16 +27,18 @@
         "Arok/ui/hud/hud_hide.json",//辅助菜单-隐藏
         "Arok/ui/hud/hud_other.json",//辅助菜单-其他
         "Arok/ui/hud/hud_close.json",//辅助菜单-停用
+        "Arok/ui/hud/hud_expand.json",//辅助菜单-扩展
         
-        "Arok/ui/start/top_bar.json",//开始界面-顶部功能栏
-        "Arok/ui/start/start_panel.json",//开始界面-开始页
+        "Arok/ui/start/start_sidebar.json",//开始界面-侧边栏
+        "Arok/ui/start/start_panel.json",//开始界面-首页
         "Arok/ui/start/start_anim.json",//开始界面动画
         "Arok/ui/start/screen_saver.json",//屏幕保护界面
         "Arok/ui/start/more_panel.json",//开始界面-功能页框架
-        "Arok/ui/start/more_producer.json",//开始界面-功能页-制作人员
+        "Arok/ui/start/more_producer.json",//关于界面-制作人员
         "Arok/ui/start/more_about.json",//开始界面-功能页-关于
         "Arok/ui/start/more_help.json",//开始界面-功能页-帮助
-        "Arok/ui/start/more_support.json",//开始界面-功能页-支持我们
+        "Arok/ui/start/expand_pack.json",//开始界面-功能页-扩展
+        "Arok/ui/start/more_support.json",//关于界面-支持我们
         "Arok/ui/start/music.json",//开始界面-功能页-音乐
         "Arok/ui/start/cd_panel.json",//■■界面
         "Arok/ui/start/bf_anim.json",//自动播放动画
@@ -44,11 +47,10 @@
         "Arok/ui/start/layout_panel_image.json",//开始界面-样式页-图像
         "Arok/ui/start/layout_panel_design.json",//开始界面-样式页-模式
         "Arok/ui/start/layout_panel_text.json",//开始界面-样式页-文本
-        "Arok/ui/start/layout_panel_sort.json",//开始界面-样式页-导航栏功能
+        "Arok/ui/start/layout_panel_sort.json",//开始界面-样式页-导航栏功能(废除)
         "Arok/ui/start/about_panel.json",//开始界面-关于页
         "Arok/ui/start/ARline_screen.json",//开始界面-ARline界面
         "Arok/ui/start/Loli_screen.json",//开始界面-Loli界面
-        "Arok/ui/start/expand_pack.json",//开始界面-功能页-扩展管理
         
         "Arok/ui/setting/more_setting.json",//设置界面-更多设置
         "Arok/ui/setting/set_anim.json",//设置界面动画

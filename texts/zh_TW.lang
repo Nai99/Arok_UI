@@ -1,10 +1,11 @@
 //manifest
-pack.description=§bTW   v1.5.8 
+pack.description=§bTW  v2.0.3
 api.A=原版圖像包
 api.B=PVP圖像包
 api.C=默認圖像包
 manifest.tip=§7滑動選擇圖像包
-menu.beta=      
+menu.beta=        
+
 
 //start_help
 help_1.1=1.進入設置介面
@@ -21,38 +22,39 @@ help_2.6=
 help_2.7=如果你已經準備完畢，就可以開始了。
 help_2.8=1.獲取結構方塊後，放置在A存檔的待複製建築旁。
 help_2.9=2.選擇待複製的建築(注意：x與y最大值為50)。
-help_2.10=3.對建築進行命名。然後點擊導出，保存mcstructure文件。
-help_2.11=4.進入B存檔的編輯遊戲界面，激活本包的附加組件。
+help_2.10=3.對建築進行命名。然後點擊導出並保存mcstructure檔。
+help_2.11=4.進入B存檔的編輯遊戲介面，啟動本包的附加組件。
 help_2.12=5.加載B存檔，在目標位置放置結構方塊。
 help_2.13=6.在結構方塊中選擇加載模式。
 help_2.14=7.點擊導入，導入剛剛保存的.mcstructure檔
 help_2.15=8.點擊加載，你的建築將成功粘貼。
 
-help_3.1=1.在設置-全局資源中的我的包中啟動擴展包
-help_3.2=2.在活躍選項中進行排序。(擴展包需高於UI)
-help_3.3=3.退出設置介面，並點擊樣式選項卡。
-help_3.4=4.在主題選擇中選擇已擴展的主題。
+help_3.1=1.在設置/全局資源中啟動DIY包或擴展包。
+help_3.2=2.在活躍選項中進行排序。(擴展包排序需高於UI)
+help_3.3=3.退出設置介面，並點擊導航欄的自定義選項。
+help_3.4=4.在模式/主題選擇中選擇已擴展的主題。
 
 //about
-about_text=Arok是由Nai發起的專案，以優化用戶體驗為核心設計理念，致力於製作美觀且實用的UI。
+about_text=Arok是由Nai-bit發起的專案，以優化用戶體驗為核心設計理念，致力於製作美觀且實用的UI。
 about_text2=基於互聯網共用精神，Arok已經開放源代碼，歡迎各位開發者加入貢獻，你可以在Github上參與代碼貢獻或者提交Bug。這樣不僅有助於ArokUI的更好的發展，也能讓更多人享受到它帶來的優秀體驗。另外,也歡迎用戶對ArokUI提出建議和意見,這將有助於我們改進和優化。
 about_title=用戶使用協議
-about_title_1=Arok UI(以下代指本包)是一款基於多種開源協議的資源包，用戶在使用時需遵守以下條款:
-about_title_2=使用協議如下:
-about_title_3=1、本包的代碼部分遵循GPLv3.0協議，用戶可以自由地使用、修改和再發佈這部分代碼，但需要遵守GPLv3.0協議的規定，包括公開發佈源代碼和注明原版權資訊。
-about_title_4=2、本包的資源檔部分（如音頻、部分圖示等）遵循CCBY-NC-SA4.0協議，用戶可以自由地使用、修改和再發佈這部分資源檔，但需要遵守CCBY-NC-SA4.0協議的規定。
-about_title_5=3、本包有使用他人的基於GPL協議開源代碼，應注意保留他人的版權資訊。
-about_title_6=4、本包為免費的資源包，用戶可以免費使用。
-about_title_7=5、用戶不得使用本包於商業用途。
-about_title_8=6、用戶不得謊稱自己是本包的原始作者或者隱去本包的版權資訊。
-about_title_9=7、在遵守GPLv3.0協議的前提下，本包及其作者不承擔由使用本包引起的任何直接或間接損失責任。
-about_title_10=8、本協議條款的最終解釋權歸Arok開發組所有 *GPLv3.0原始許可協議可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html*
-about_title_11=9、用戶在使用本包時將視作同意本協議。
-about_title_12=[Arok UI]開發組
-
+about_title_1=感謝您使用Arok資源包。為了維護共同的合法權益，請您認真閱讀並理解使用協議所有內容。 
+about_title_2=以下內容是您與Arok資源包的使用協議:    
+about_title_3=一、版權    
+about_title_4=1.1 Arok資源包的代碼部分遵循GPLv3.0協議，GPLv3.0原始許可協議可在以下位置找到：http://www.gnu.org/licenses/gpl-3.0.html，用戶在使用、修改和再發佈這類檔時，需要遵守GPLv3.0協議的規定，包括公開發佈源代碼和注明原版權資訊。  
+about_title_5=1.2 Arok資源包的資源檔部分（如音頻、部分圖示等）遵循CCBY-NC-SA4.0協議，用戶在使用、修改和再發佈這類檔時，需要遵守CCBY-NC-SA4.0協議的規定。  
+about_title_6=1.3 Arok資源包存在使用他人基於GPLv3.0協議的開源代碼，用戶在使用、修改和再發佈這類檔時，注意保留他人的版權資訊。  
+about_title_7=二、用途   
+about_title_8=2.1 Arok資源包為免費資源包，所有用戶都可以免費使用。
+about_title_9=2.2 用戶不得使用Arok資源包於商業用途。 
+about_title_10=2.3 用戶不得謊稱自己是Arok資源包的原始作者或者隱藏相關的版權資訊。
+about_title_11=三、責任   
+about_title_12=3.1 Arok資源包及其作者不承擔由使用Arok資源包引起的任何直接或間接損失責任。  
+about_title_13=3.2 本協議條款的最終解釋權歸Arok開發組所有   
+about_title_14=3.3 用戶在使用Arok資源包時開始視作同意本協議。
+about_title_15=『Arok UI』
 
 //start
-white.off=§f關閉
 
 start_A=背景
 start_B=圖像
@@ -76,7 +78,6 @@ screen_saver.5min=5分鐘
 image.no=關閉
 image.1=圖片一
 image.2=圖片二
-rwmx=人物模型
 
 pattern.1=樣式一
 pattern.2=樣式二
@@ -98,36 +99,21 @@ sort.6=顯示遊戲控件
 sort.7=顯示商店控件
 sort.8=顯示退出控件
 
-tip.1=適應不同環境的模式
+tip.1=適用於不同環境的模式
 tip.2=管理螢幕保護出現的時間
-tip.3=更換右下角的圖片(裝載自定義包後顯示)
-tip.4=更換主介面的背景(可通過自定義包修改背景)
-tip.5=切換主介面的UI樣式
+tip.3=更換側邊欄的圖像
+tip.4=更換主介面的背景
+tip.5=切換主介面介面樣式
 tip.6=切換主介面主題(需裝載主題擴展包)
 tip.7=預覽更換的背景
 tip.8=管理導航欄的控件
 
 start=開始
-pattern=樣式
+pattern=自定義
 function=功能
 
-white.setting=§f設置
-white.about=§f關於
-white.invite=§f邀請
-white.skin=§f服裝
-white.achievement=§f成就
-white.store=§f商店
-white.game=§f遊戲
-white.exit=§f退出
-
-black.setting=§0設置
-black.about=§0關於
-black.invite=§0邀請
-black.skin=§0服裝
-black.achievement=§0成就
-black.store=§0商店
-black.game=§0遊戲
-black.exit=§0退出
+no.image.tip=暫無圖片
+pack.tip=<未加入自定義包>
 
 nologin.1=未登錄
 setting.1=設置
@@ -137,15 +123,16 @@ achievement.1=成就
 invite.1=邀請
 exit.1=退出
 store.1=商店
+about.1=關於
+photo.1=照片
 
 information=資訊
 help=幫助
 Producer=製作人員
 support=支持我們
 music=音樂
-expand.1=擴展管理
 
-music.tip=需安裝官方的音樂包
+music.tip=需安裝官方音樂包
 compilations=合集
 broadcast.1=播放
 single_song=單曲
@@ -156,7 +143,6 @@ project_tip=專案地址:
 when_tip=開發日期:
 author=製作者:
 contributor=貢獻者:
-customize.pack=自定義包
 special_thanks=特別鳴謝:
 
 help_1=幫助一
@@ -167,23 +153,28 @@ help.title.1=切換圖形包教程
 help.title.2=跨存檔複製建築教程
 help.title.3=擴展包裝載教程
 
-expand_pack_tip=顯示目前已裝載的擴展包
+content.pack.tip=內容包
+expand.pack.tip=主題擴展包
+DIY.pack.tip=DIY內容包
 
 WeChat_label=使用微信進行捐贈
 WeChat_tip=助力作者更好的創作！捐贈金額不限(最高人民幣50元)，未成年人請在監護人陪同下進行捐贈。
 
-screen.bh=屏幕保護中...
+screen.bh=螢幕保護中
 sc.back=點擊任意處返回
+the.start.tip=輕觸切換界面 長按隱藏界面
 
 //hud
-hidehud.text=點擊此處恢復Hud
+hidehud.text=點擊此處恢復
 Low.durability=低耐久度
 create.1=創造
 survive.1=生存
 
 //hud_menu
-change.crosshair=準心選擇
-stop_tip.1=停用輔助功能
+expand.1=擴展功能
+expand.2=暫未裝載擴展
+change.crosshair=准心選擇
+stop_tip.1=禁用輔助功能
 stop_tip.2=使用本功能後本次遊戲將停止使用輔助功能，只能通過重進遊戲恢復。停用功能後，通過輔助菜單開啟或關閉的功能直到開始下次遊戲前都不會恢復。
 stop_tip.3=如果僅關閉面板，點擊面板右上角的關閉控件即可。
 hud_auxiliary=輔助點
@@ -192,11 +183,11 @@ show.2=顯示時鐘
 show.3=顯示追溯指針
 show.4=紙娃娃平面
 show.5=手持物品顯示
-show.6=強制顯示物品欄
+show.6=鎖定物品欄
 show.7=夜間模式
 show.8=護眼模式
 show.title=功能顯示
-hud_hide.1=隱藏控件
+hud_hide.1=隱藏部件
 hud_hide.2=隱藏血量
 hud_hide.3=隱藏坐騎血量
 hud_hide.4=隱藏饑餓度
@@ -205,8 +196,8 @@ hud_hide.6=隱藏低耐久提醒
 hud_hide.7=隱藏Boss資訊
 hud_hide.8=隱藏計分板
 hud_hide.9=隱藏狀態效果
-hud_hide.10=隐藏經驗條
-hud_hide.11=隐藏快捷欄
+hud_hide.10=隱藏經驗條
+hud_hide.11=隱藏快捷欄
 hud_hide.12=隱藏聊天
 hud_hide.13=隱藏座標
 hud_hide.14=隱藏紙娃娃
@@ -218,17 +209,18 @@ location.2=左上角
 location.3=右上角
 location.4=左下角
 location.5=右下角
+location.6=自由拖動
 customized.hud=Arok定制Hud
 original.hud=原版Hud
 watermark.label=浮水印位置
-watermark.label.tip=更改浮水印路徑 Arok/textures/other/watermark.png
+watermark.label.tip=修改以下路徑的圖片可以修改浮水印樣式 Arok/textures/other/watermark.png
 qh.hud.label=切換Hud模式
-qh.hud.label.tip=在原版Hud模式下，輔助菜單功能不可用。
+qh.hud.label.tip=在原版Hud模式下，輔助菜單部分功能不可用。
 
 //inventory
 item_bar.1=物品欄
-synthesis.1=一鍵合成
-open1=全部
+synthesis.1=合成所有
+open.1=全部
 open.2=物品欄
 open.3=背包
 
@@ -251,7 +243,7 @@ set.text.1=系統
 set.text.2=常規
 set.text.3=高級
 setting.more=更多
-beta.1=測試版頂部文字
+beta.1=測試版頂部浮水印
 debug.2=點擊切換
 control.1=控制
 routine.1=常規
@@ -292,16 +284,16 @@ last.1=上句
 next.1=下句
 
 //OreUI
-hbui.Notifications.experimentsWarning.informationMessage=「實驗性玩法」是未來可能會正式加入的新功能。它們可能會破壞內容，請小心。	#
-hbui.CreateNewWorldSideMenu.generalTabLabel=一般	
-hbui.CreateNewWorldSideMenu.generalTabLabel.title=一般設定
-hbui.CreateNewWorldSideMenu.advancedTabLabel=進階	
-hbui.CreateNewWorld.advanced.title=進階設定	
-hbui.CreateNewWorldSideMenu.cheatsTabLabel=作弊	
-hbui.CreateNewWorld.cheats.settingsTitle=作弊設定	
-hbui.CreateNewWorldSideMenu.experimentalFeaturesTabLabel=實驗性玩法	
+hbui.Notifications.experimentsWarning.informationMessage=實驗性遊戲內容是潛在的新功能。可能會發生錯誤，請小心。
+hbui.CreateNewWorldSideMenu.generalTabLabel=通用	
+hbui.CreateNewWorldSideMenu.generalTabLabel.title=通用設置	
+hbui.CreateNewWorldSideMenu.advancedTabLabel=高級	
+hbui.CreateNewWorld.advanced.title=高級設置	
+hbui.CreateNewWorldSideMenu.cheatsTabLabel=無敵模式	
+hbui.CreateNewWorld.cheats.settingsTitle=作弊設置	
+hbui.CreateNewWorldSideMenu.experimentalFeaturesTabLabel=實驗性遊戲內容	
 
-//1.19翻譯
+//1.19
 options.creativeDelayedBlockBreaking=延遲打破方塊(僅創造模式)
 options.destroyvibration=破壞方塊時振動	
 options.splitvibration=拆分物品時振動	
@@ -314,7 +306,7 @@ options.copyCoordinateUI=啟用複製座標
 options.account=用戶
 options.accountTitle=用戶設置
 
-//村民
+//villager
 trade.level.1=陌生	
 trade.level.2=友好	
 trade.level.3=信任	
@@ -327,8 +319,8 @@ trade.trade=交易
 
 back.1=點擊任意處返回遊戲
 
-activate.yes=已激活
-activate.no=未激活
+activate.yes=已啟動
+activate.no=未啟動
 
 //formula
 formula.title=煉藥配方
